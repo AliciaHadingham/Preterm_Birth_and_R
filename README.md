@@ -1,6 +1,6 @@
 # Code to accompany 'Coding to Save Babies' Lives: Preterm Birth and R'
 The R scripts used in my tutorials will be hosted here on github for you to access. Feel free to copy and paste commands or download the scripts to help in your learning! :smiley:
-
+<br/><br/><br/>
 
 ## Tutorial plan
 Tutorials:
@@ -13,13 +13,13 @@ Tutorials:
 7. Final assignment feedback and reflection
 
 Tutorials 2-5 will involve learning coding.
-
+<br/><br/><br/>
 
 ## Downloading R
 To use R you need to:
 * [Download R](https://www.r-project.org/)  
 * [Download RStudio](https://rstudio.com/products/rstudio/download/#download)
-
+<br/><br/><br/>
 
 
 
