@@ -4,15 +4,15 @@ The R scripts used in my tutorials will be hosted here on github for you to acce
 
 ## Tutorial plan
 Tutorials:
-1. Preterm birth
+1. Preterm birth :books:
 2. Coding in R :computer:
 3. Analysing data & statistical tests in R :computer:
 4. Plotting in R part 1 :computer:
 5. Plotting in R part 2 :computer:
-6. Draft assignment feedback and reflection
-7. Final assignment feedback and reflection
+6. Draft assignment feedback and reflection :white_check_mark:
+7. Final assignment feedback and reflection :white_check_mark:
 
-Tutorials 2-5 will involve learning coding.
+Tutorials 2-5 will involve coding :computer:
 <br/><br/>
 
 ## Downloading R
@@ -26,4 +26,4 @@ All scripts and data can be downloaded for you to practise coding in R. You will
 <br/><br/>
 
 ## The data 
-All data used in this course was fabricated. The data was made for the purpose of showing how R can be used in preterm birth or other medical research.
+All data used in this course was fabricated. The data was made for the purpose of showing how R can be used in preterm birth or other medical research :hospital: :microscope: :syringe: 
