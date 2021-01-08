@@ -90,7 +90,7 @@ ANOVA_results <-aov(Weeks_at_birth ~ Diet, data=data1)
 summary(ANOVA_results)
 
 # The post-hoc Tukey test on the ANOVA results
-TukeyHSD(ANOVA_results,"Diet")
+TukeyHSD(ANOVA_results, "Diet")
 
 
 

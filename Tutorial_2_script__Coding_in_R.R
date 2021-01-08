@@ -59,16 +59,14 @@ library(ggplot2)
 ############################################################################################
 
 # How to get help on using specific commands/functions in R:
-# • The help panel in RStudio (type in the command in the 'Help' panel)
-# • Type ? followed by the command you want help with:
+# * The help panel in RStudio (type in the command in the 'Help' panel)
+# * Type ? followed by the command you want help with:
 ?setwd
 ?library
 
 # How to get general help on R:
-# •	Google (search “How to.... in R”)
-# •	StackOverflow https://stackoverflow.com/questions (You can post questions here or find answers from previous questions)
-
-
+# * Google (search “How to.... in R”)
+# * StackOverflow https://stackoverflow.com/questions (You can post questions here or find answers from previous questions)
 
 
 
