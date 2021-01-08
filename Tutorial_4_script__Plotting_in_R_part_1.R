@@ -9,7 +9,10 @@ setwd("/Users/aliciahadingham/OneDrive - King's College London/PhD/FYI_or_Other/
 #getwd()
 
 # Load data1
-data1 <- read.csv("data/data1_spreadsheet.csv", header=TRUE) 
+data1 <- read.csv("data/data1_spreadsheet.csv") 
+
+# As an alternative, you can load in data1 this way if you want
+data1 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv"))
 
 # Changing Location from characters to factors & ordering the categories
 data1$Location <- factor(data1$Location, levels = c("London", "Surrey", "Essex", "Kent"))
