@@ -1,0 +1,31 @@
+﻿ID,Age,Location,Birth,BMI,Diet,Weeks_at_birth
+1,34,Surrey,Early,20,Vegan ,24
+2,32,London,Normal,18,Vegetarian,40
+3,26,Essex,Normal,19,Other,39
+4,36,Kent,Early,20,Other,29
+5,25,Surrey,Normal,34,Vegan ,38
+6,20,Essex,Normal,32,Other,39
+7,28,Kent,Early,24,Vegan ,32
+8,30,London,Early,26,Other,35
+9,31,London,Normal,27,Vegetarian,37
+10,24,London,Normal,35,Other,38
+11,25,Essex,Normal,22,Other,39
+12,20,Kent,Normal,22,Other,39
+13,32,Surrey,Early,24,Vegan ,26
+14,25,London,Normal,36,Vegetarian,38
+15,32,Essex,Early,30,Other,24
+16,21,Kent,Normal,26,Other,40
+17,33,Surrey,Normal,28,Vegan ,40
+18,35,London,Early,30,Other,29
+19,28,Essex,Normal,17,Other,41
+20,21,London,Normal,33,Vegan ,40
+21,22,Essex,Early,24,Other,33
+22,39,London,Early,23,Vegetarian,30
+23,27,London,Early,22,Other,36
+24,38,Kent,Normal,27,Other,38
+25,35,Surrey,Normal,25,Vegan ,39
+26,27,London,Normal,22,Other,40
+27,21,Essex,Normal,29,Vegetarian,41
+28,40,Kent,Normal,32,Vegan ,40
+29,27,Surrey,Normal,35,Vegan ,39
+30,38,Essex,Early,36,Other,28
