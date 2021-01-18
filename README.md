@@ -19,6 +19,8 @@ Tutorials 2-5 will involve coding :computer:
 To use R you need to:
 * [Download R](https://www.r-project.org/)  
 * [Download RStudio](https://rstudio.com/products/rstudio/download/#download)
+
+Please see the PDF 'How_to_download_R_and_RStudio.pdf' for more details.
 <br/><br/>
 
 ## The scripts
