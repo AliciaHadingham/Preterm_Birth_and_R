@@ -53,7 +53,7 @@ list.files()
 install.packages("ggplot2")
 
 # Load a library which has already been installed
-library(ggplot2)
+library("ggplot2")
 
 
 
