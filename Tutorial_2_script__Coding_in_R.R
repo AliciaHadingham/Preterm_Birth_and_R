@@ -10,6 +10,12 @@
 ##                                                                                        ##
 ############################################################################################
 
+# R as a calculator
+3+4 #addition
+3-4 #subtraction
+3*3 #multiplication
+3/4 #division
+
 # Assigning values to the objects x and y
 x <- 5
 y <- 2
