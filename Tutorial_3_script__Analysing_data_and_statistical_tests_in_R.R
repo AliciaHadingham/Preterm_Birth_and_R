@@ -49,16 +49,16 @@ View(data1)
 # How can we get some basic summary statistics of each column in data1?
 summary(data1)
 
-# How can we make a summary table of counts of women that go in each category? 
-# (In this case we are looking at the number of women that had early or normal births across the locations in data1)
-table(data1$Location, data1$Birth)
-
 # What are the dimension of data1?
 dim(data1) 
 
 # What is the structure of data1? 
 # (Dimensions and the data types of each column)
 str(data1)
+
+# How can we make a summary table of counts of women that go in each category? 
+# (Here we are looking at women that had early or normal births across the locations in data1)
+table(data1$Location, data1$Birth)
 
 
 
