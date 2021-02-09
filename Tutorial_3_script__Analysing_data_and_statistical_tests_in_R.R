@@ -30,7 +30,7 @@ data_frame_name <- read.csv("filename.csv")
 # Load data (that is not in the current working directory):
 data1 <- read.csv("data/data1_spreadsheet.csv") #read.csv("folder/filename.csv")
 
-# As an alternative, you can load in data1 this way if you want
+# As an alternative, you can load in data1 this way if you want (this downloads the csv file directly from the internet)
 data1 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv"))
 
 
