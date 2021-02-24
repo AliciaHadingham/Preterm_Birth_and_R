@@ -10,7 +10,7 @@
 ############################################################################################
 
 # Set the working directory (the folder you want to work in)
-setwd("/Users/aliciahadingham/OneDrive - King's College London/PhD/FYI_or_Other/Public_Engagement/The Brilliant Club/Github_content") #Mac
+setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
 
 #Confirm we are in the right working directory
 getwd()
@@ -59,7 +59,7 @@ str(data1)
 # How can we make a summary table of counts of women that go in each category? 
 # (Here we are looking at women that had early or normal births across the locations in data1)
 table(data1$Location, data1$Birth)
-
+table(data1$Diet, data1$Birth)
 
 
 

@@ -46,8 +46,8 @@ z
 setwd("/Users/your_username/folder/subfolder")
 
 # Examples for setting the working directory on Mac and PC:
-setwd("/Users/aliciahadingham/OneDrive - King's College London/PhD") #Mac example 
-setwd("/Users/alici/OneDrive - King's College London/PhD") #PC example
+setwd("/Users/aliciahadingham/Desktop") #Mac example 
+setwd("/Users/alici/Desktop") #PC example
 
 # Print the current working directory to the console
 getwd()

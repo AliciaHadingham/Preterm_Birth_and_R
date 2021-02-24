@@ -10,7 +10,7 @@
 ############################################################################################
 
 # Set the working directory
-setwd("/Users/aliciahadingham/OneDrive - King's College London/PhD/FYI_or_Other/Public_Engagement/The Brilliant Club/Github_content") #Mac
+setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
 #getwd()
 
 # Load data1
