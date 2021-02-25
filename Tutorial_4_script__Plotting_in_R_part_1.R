@@ -108,4 +108,40 @@ ggplot(data=data1, aes(x=Birth, y=Age)) +
 
 
 
+############################################################################################
+##                                                                                        ##
+##                      Extra: Manually choosing colours in plots                         ##
+##                                                                                        ##
+############################################################################################ 
+
+# You can choose one of the set colours here http://sape.inf.usi.ch/quick-reference/ggplot2/colour
+# Or you can pick any colour you want using the colour codes here https://htmlcolorcodes.com/ which all start with a # symbol
+
+
+# Boxplot with colours by Birth timing  - colours manually selected
+ggplot(data = data1, aes(x = Birth, y = Age)) +
+  geom_boxplot(aes(colour = Birth)) +
+  scale_colour_manual(values = c("magenta", "blue"))
+
+# Boxplot with a scatter plot on top (with colours by Birth) - colours manually selected
+ggplot(data = data1, aes(x = Birth, y = Age)) +
+  geom_boxplot()  +
+  geom_point(aes(colour = Birth)) +
+  scale_colour_manual(values = c("pink", "lightgreen"))
+
+# Scatter plot with colours by Location - colours manually selected
+ggplot(data = data1, aes(x = BMI, y = Age)) +
+  geom_point(aes(colour = Location)) +
+  scale_colour_manual(values = c("red", "cyan", "purple", "green"))
+
+# Scatter plot with colours by Location - colours manually selected
+ggplot(data = data1, aes(x = BMI, y = Age)) +
+  geom_point(aes(colour = Location)) +
+  scale_colour_manual(values = c("#3AD1FF", "#D8B8FF", "#4D9489", "#F63D88"))
+
+
+
+
+
+
 
