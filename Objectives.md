@@ -33,7 +33,7 @@
 
 
 ### What is the Purpose of Tutorial 6? 
-* To received feedback on your draft assignment
+* To receive feedback on your draft assignment
 * To reflect on your essay writing skills
 * To identify practical ways to improve your assignment
 
