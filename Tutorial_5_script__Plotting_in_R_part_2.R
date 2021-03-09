@@ -16,7 +16,7 @@ setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement
 # Load data2
 data2 <- read.csv("data/data2_spreadsheet.csv") 
 
-# As an alternative, you can load in data1 this way if you want
+# As an alternative, you can load in data2 this way if you want
 data2 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data2_spreadsheet.csv"))
 
 #Change data types
