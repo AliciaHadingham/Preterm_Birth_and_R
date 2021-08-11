@@ -47,6 +47,7 @@ setwd("/Users/your_username/folder/subfolder")
 
 # Examples for setting the working directory on Mac and PC:
 setwd("/Users/aliciahadingham/Desktop") #Mac example 
+setwd("C:/Users/alici/Desktop") #PC example
 
 # Print the current working directory to the console
 getwd()
@@ -95,4 +96,5 @@ setwd('/Users/alici/Desktop') #Using single quotations
 # But if you use 2 single quotations instead of double quotations you will get an error
 setwd(''/Users/alici/Desktop'') #Using 2 single quotations
 # Error: unexpected string constant in "setwd(''/Users/alici/Desktop''"
+
 

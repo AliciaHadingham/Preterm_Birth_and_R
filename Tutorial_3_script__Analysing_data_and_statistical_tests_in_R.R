@@ -11,6 +11,7 @@
 
 # Set the working directory (the folder you want to work in)
 setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
+setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
 
 #Confirm we are in the right working directory
 getwd()
@@ -99,6 +100,7 @@ summary(ANOVA_results)
 
 # The post-hoc Tukey test on the ANOVA results
 TukeyHSD(ANOVA_results, "Diet")
+
 
 
 

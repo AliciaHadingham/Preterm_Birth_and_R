@@ -11,6 +11,7 @@
 
 # Set the working directory
 setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
+setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
 #getwd()
 
 # Load data2
@@ -81,6 +82,7 @@ ggplot(data=data2, aes(x=Weeks, y=fFN, group=ID)) +
   labs(x="Duration of pregnancy (weeks)", 
        y="Fetal fibronectin (ng/mL)",
        title="Fetal fibronectin across pregnancy in four women")
+
 
 
 

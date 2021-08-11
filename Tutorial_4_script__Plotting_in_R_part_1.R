@@ -11,6 +11,7 @@
 
 # Set the working directory
 setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
+setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
 #getwd()
 
 # Load data1
@@ -138,8 +139,6 @@ ggplot(data = data1, aes(x = BMI, y = Age)) +
 ggplot(data = data1, aes(x = BMI, y = Age)) +
   geom_point(aes(colour = Location)) +
   scale_colour_manual(values = c("#3AD1FF", "#D8B8FF", "#4D9489", "#F63D88"))
-
-
 
 
 
