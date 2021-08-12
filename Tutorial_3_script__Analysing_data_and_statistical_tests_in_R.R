@@ -25,11 +25,15 @@ getwd()
 ##                                                                                        ##
 ############################################################################################
 
-# Load data (that is in the current working directory):
+# Loading data examples:
 data_frame_name <- read.csv("filename.csv")
+data_frame_name <- read.csv("folder/subfolder/filename.csv")
 
-# Load data (that is not in the current working directory):
-data1 <- read.csv("data/data1_spreadsheet.csv") #read.csv("folder/filename.csv")
+# Load data (data1_spreadsheet.csv is in a folder called "data" in the current working directory):
+data1 <- read.csv("data/data1_spreadsheet.csv") 
+
+# Load data1 - This is how you can load the data if you have "ï.." symbols in front of ID in the first column
+data1 <- read.csv("data/data1_spreadsheet.csv", fileEncoding = "UTF-8-BOM") 
 
 # As an alternative, you can load in data1 this way if you want (this downloads the csv file directly from the internet)
 data1 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv"))

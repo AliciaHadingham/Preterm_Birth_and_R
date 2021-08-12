@@ -17,6 +17,9 @@ setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brill
 # Load data2
 data2 <- read.csv("data/data2_spreadsheet.csv") 
 
+# Load data2 - This is how you can load the data if you have "ï.." symbols in front of ID in the first column
+data2 <- read.csv("data/data2_spreadsheet.csv", fileEncoding = "UTF-8-BOM") 
+
 # As an alternative, you can load in data2 this way if you want
 data2 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data2_spreadsheet.csv"))
 
