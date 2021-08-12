@@ -90,9 +90,13 @@ ggplot(data=data1, aes(x=BMI, y=Age)) +
 
 
 
+
+
+
+
 ############################################################################################
 ##                                                                                        ##
-##                       Extra: Boxplots with points jittered                             ##
+##             Extra: Boxplots with points jittered to avoid overlapping points           ##
 ##                                                                                        ##
 ############################################################################################ 
 
@@ -135,10 +139,47 @@ ggplot(data = data1, aes(x = BMI, y = Age)) +
   geom_point(aes(colour = Location)) +
   scale_colour_manual(values = c("red", "cyan", "purple", "green"))
 
-# Scatter plot with colours by Location - colours manually selected
+# Scatter plot with colours by Location - colours manually selected 
+# You can pick colours here: https://htmlcolorcodes.com/)
 ggplot(data = data1, aes(x = BMI, y = Age)) +
   geom_point(aes(colour = Location)) +
-  scale_colour_manual(values = c("#3AD1FF", "#D8B8FF", "#4D9489", "#F63D88"))
+  scale_colour_manual(values = c("#3AD1FF", "#D8B8FF", "#4D9489", "#F63D88")) 
+
+
+
+
+
+############################################################################################
+##                                                                                        ##
+##                        Extra: Including a line of best fit                             ##
+##                                                                                        ##
+############################################################################################ 
+
+
+# Line of best fit - using the default "loess" method
+ggplot(data=data1, aes(x=BMI, y=Age)) +
+  geom_point() +
+  geom_smooth()
+
+# Line of best fit - using the "lm" method
+ggplot(data=data1, aes(x=BMI, y=Age)) +
+  geom_point() +
+  geom_smooth(method="lm")
+
+# Line of best fit - using the "glm" method
+ggplot(data=data1, aes(x=BMI, y=Age)) +
+  geom_point() +
+  geom_smooth(method="glm")
+
+
+# Information on the line of best fit options
+?geom_smooth
+?loess  # loess = Local Polynomial Regression Fitting
+?lm     # lm = Fitting Linear Models
+?glm    # glm = Fitting Generalized Linear Models
+
+
+
 
 
 
