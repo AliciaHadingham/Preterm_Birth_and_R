@@ -140,7 +140,7 @@ ggplot(data = data1, aes(x = BMI, y = Age)) +
   scale_colour_manual(values = c("red", "cyan", "purple", "green"))
 
 # Scatter plot with colours by Location - colours manually selected 
-# You can pick colours here: https://htmlcolorcodes.com/)
+# You can pick colours here: https://htmlcolorcodes.com/
 ggplot(data = data1, aes(x = BMI, y = Age)) +
   geom_point(aes(colour = Location)) +
   scale_colour_manual(values = c("#3AD1FF", "#D8B8FF", "#4D9489", "#F63D88")) 
@@ -154,7 +154,6 @@ ggplot(data = data1, aes(x = BMI, y = Age)) +
 ##                        Extra: Including a line of best fit                             ##
 ##                                                                                        ##
 ############################################################################################ 
-
 
 # Line of best fit - using the default "loess" method
 ggplot(data=data1, aes(x=BMI, y=Age)) +
@@ -177,7 +176,6 @@ ggplot(data=data1, aes(x=BMI, y=Age)) +
 ?loess  # loess = Local Polynomial Regression Fitting
 ?lm     # lm = Fitting Linear Models
 ?glm    # glm = Fitting Generalized Linear Models
-
 
 
 
