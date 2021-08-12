@@ -155,6 +155,8 @@ ggplot(data = data1, aes(x = BMI, y = Age)) +
 ##                                                                                        ##
 ############################################################################################ 
 
+# Website with examples of using a line of best fit: https://ggplot2.tidyverse.org/reference/geom_smooth.html
+
 # Line of best fit - using the default "loess" method
 ggplot(data=data1, aes(x=BMI, y=Age)) +
   geom_point() +
@@ -169,6 +171,11 @@ ggplot(data=data1, aes(x=BMI, y=Age)) +
 ggplot(data=data1, aes(x=BMI, y=Age)) +
   geom_point() +
   geom_smooth(method="glm")
+
+# Line of best fit - using the default "loess" method with no confidence interval shading
+ggplot(data=data1, aes(x=BMI, y=Age)) +
+  geom_point() +
+  geom_smooth(se=FALSE)
 
 
 # Information on the line of best fit options
