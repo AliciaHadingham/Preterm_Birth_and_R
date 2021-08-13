@@ -10,7 +10,7 @@
 ############################################################################################
 
 # Set the working directory
-setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
+#setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
 setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
 #getwd()
 
@@ -25,8 +25,8 @@ data2 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm
 
 #Change data types
 str(data2)
-data2$ID <- as.factor(data2$ID)
-data2$Birth <- as.factor(data2$Birth)
+data2$ID <- factor(data2$ID)
+data2$Birth <- factor(data2$Birth)
 str(data2)
 
 # Load ggplot2 library 
