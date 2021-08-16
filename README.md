@@ -28,4 +28,6 @@ All scripts and data can be downloaded for you to practise coding in R. You will
 <br/><br/>
 
 ## The data 
+The data folder contains the csv files we used in the tutorials. It also contains the data that you can use to help you in your final assignment/academic project.
 All data used in this course was fabricated. The data was made for the purpose of showing how R can be used in preterm birth or other medical research :hospital: :microscope: :syringe: 
+
