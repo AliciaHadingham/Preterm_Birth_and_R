@@ -1,0 +1,41 @@
+ID,BMI,BMI_category,Age,BV_status,Asthma,Lactate,Acetate,Microbiome_type,Elafin,Weeks_gestation_at_birth,PTB
+101,20,Healthy weight,22,BV,No ,3,9,Type_4,1062059,36,Yes
+102,32,Obese,24,Normal,No ,15,1,Type_1,181057,40,No
+103,24,Healthy weight,36,Intermediate,Yes,10,3,Type_3,36524,34,Yes
+104,26,Overweight,30,Normal,No ,17,1,Type_1,411852,40,No
+105,33,Obese,36,BV,No ,4,10,Type_4,102011,30,Yes
+106,17,Underweight,21,Normal,No ,18,2,Type_1,539108,38,No
+107,31,Obese,31,Normal,No ,19,2,Type_1,203050,39,No
+108,25,Overweight,30,Normal,Yes,8,3,Type_2,156721,36,Yes
+109,20.5,Healthy weight,24,BV,No ,7,4,Type_4,139852,37,No
+110,24,Healthy weight,20,Normal,No ,20,1,Type_1,329831,40,No
+111,29,Overweight,31,Normal,No ,14,2,Type_5,210389,38,No
+112,21,Healthy weight,28,Normal,No ,12,3,Type_1,412564,39,No
+113,23,Healthy weight,35,Intermediate,No ,5,7,Type_4,108928,26,Yes
+114,27,Overweight,22,Normal,No ,19,1,Type_1,118730,37,No
+115,35,Obese,40,Normal,Yes,9,4,Type_4,86389,27,Yes
+116,18,Underweight,30,Normal,No ,11,3,Type_2,508276,40,No
+117,28,Overweight,29,Intermediate,No ,10,4,Type_3,309276,28,Yes
+118,30,Obese,25,Normal,Yes,13,2,Type_2,527849,35,Yes
+119,20,Healthy weight,28,Normal,No ,10,2,Type_1,97632,40,No
+120,24.5,Healthy weight,30,BV,No ,8,4,Type_3,458932,32,Yes
+121,23,Healthy weight,22,Normal,No ,10,2,Type_1,555839,39,No
+122,27,Overweight,32,Intermediate,No ,3,6,Type_3,219781,36,Yes
+123,35,Obese,22,Intermediate,No ,11,2,Type_3,173452,36,Yes
+124,18,Underweight,24,Normal,No ,15,2,Type_2,156583,34,Yes
+125,28,Overweight,20,Normal,No ,12,3,Type_1,346562,37,No
+126,30,Obese,37,Normal,Yes,11,1,Type_1,227120,29,Yes
+127,26,Overweight,33,Normal,Yes,17,1,Type_1,429295,38,No
+128,33,Obese,31,BV,No ,8,3,Type_3,125659,30,Yes
+129,17,Underweight,29,Normal,No ,19,2,Type_1,135461,39,No
+130,31,Obese,25,Normal,Yes,17,1,Type_2,103120,40,No
+131,20,Healthy weight,28,BV,No ,5,5,Type_4,525007,38,No
+132,32,Obese,30,Intermediate,No ,13,2,Type_3,326007,32,Yes
+133,24,Healthy weight,22,Normal,No ,12,3,Type_1,544580,25,Yes
+134,26,Overweight,32,BV,No ,10,4,Type_3,114363,35,Yes
+135,20,Healthy weight,23,Intermediate,No ,9,3,Type_4,475663,34,Yes
+136,23,Healthy weight,20,BV,Yes,8,4,Type_4,572570,37,No
+137,23,Healthy weight,37,Normal,No ,17,1,Type_1,236512,38,No
+138,27,Overweight,33,Normal,No ,15,3,Type_5,190183,40,No
+139,35,Obese,34,Normal,No ,12,3,Type_1,173314,39,No
+140,21,Healthy weight,20,Intermediate,No ,10,4,Type_3,363293,37,No
