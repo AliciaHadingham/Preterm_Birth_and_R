@@ -6,7 +6,7 @@ The R scripts used in my tutorials will be hosted here on github for you to acce
 Tutorials:
 1. Preterm birth :books:
 2. Coding in R :computer:
-3. Analysing data & statistical tests in R :computer:
+3. Analysing data in R :computer:
 4. Plotting in R part 1 :computer:
 5. Plotting in R part 2 :computer:
 6. Draft assignment feedback and reflection :white_check_mark:
