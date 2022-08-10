@@ -25,7 +25,7 @@ Please see the PDF 'How_to_download_R_and_RStudio.pdf' for more details.
 
 ## The scripts
 All scripts and data can be downloaded for you to practise coding in R.  <br/><br/>
-You will need to change the working directory to the folder on your computer where you have put the data.
+You will need to change the working directory to the folder on your computer where you have put the data. Alternatively, you can download the data directly from the internet into R using the method included in the scripts.
 <br/><br/>
 
 ## The data 
