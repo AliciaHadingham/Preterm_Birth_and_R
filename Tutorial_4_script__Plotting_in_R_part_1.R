@@ -5,26 +5,30 @@
 
 ############################################################################################
 ##                                                                                        ##
-##                                 Basic R set up                                         ##
+##                                   Setting up                                           ##
 ##                                                                                        ##
 ############################################################################################
 
-# Set the working directory
-#setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
-setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
-#getwd()
+# Set the working directory (i.e. select the file path for the folder where your data is) 
+setwd("C:/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content/data")
+getwd()
 
-# Load data1
-data1 <- read.csv("data/data1_spreadsheet.csv") 
 
-# Load data1 - This is how you can load the data if you have "ï.." symbols in front of ID in the first column
-data1 <- read.csv("data/data1_spreadsheet.csv", fileEncoding = "UTF-8-BOM") 
+# Now we need to import the data which we will analyse into R. There are two methods which we can use: 
 
-# As an alternative, you can load in data1 this way if you want
+# 1. Importing the file from your current working directory (i.e. you need to use setwd to navigate to the working directory/folder where data1_spreadsheet.csv is for this to work)
+data1 <- read.csv("data1_spreadsheet.csv") 
+
+# 2. You can import data1 directly from the internet. This is the EASIER WAY!!
 data1 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv"))
 
-# Changing Location from characters to factors & ordering the categories
+# Changing the automatically chosen "character" data types to factors
+str(data1)
+data1$Birth <- factor(data1$Birth)
+data1$Diet <- factor(data1$Diet)
+data1$ID <- factor(data1$ID)
 data1$Location <- factor(data1$Location, levels = c("London", "Surrey", "Essex", "Kent"))
+str(data1)
 
 # Load ggplot2 library 
 library(ggplot2)
@@ -77,10 +81,6 @@ ggplot(data=data1, aes(x=Birth, y=Age)) +
 # Simple scatter plot 
 ggplot(data=data1, aes(x=BMI, y=Age)) +
   geom_point()
-
-# Scatter plot in a specific colour
-ggplot(data=data1, aes(x=BMI, y=Age)) +
-  geom_point(colour="purple")
 
 # Scatter plot with colours by Location
 ggplot(data=data1, aes(x=BMI, y=Age)) +

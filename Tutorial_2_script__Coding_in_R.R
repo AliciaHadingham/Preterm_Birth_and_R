@@ -32,22 +32,23 @@ z <- x+y
 
 # Print the value of z to the console
 z 
+print(z) # this works too, but it takes longer to type
 
 
 
 
 ############################################################################################
 ##                                                                                        ##
-##                                 Basic R set up                                         ##
+##                                   Setting up R                                         ##
 ##                                                                                        ##
 ############################################################################################
 
 # Set the working directory (the folder you want to work in)
-setwd("/Users/your_username/folder/subfolder")
+setwd("/Users/your_username/folder/subfolder") # Note that if you run this line you will get an error as this directory/folder doesn't exist on your computer
 
 # Examples for setting the working directory on Mac and PC:
-setwd("/Users/aliciahadingham/Desktop") #Mac example 
-setwd("C:/Users/alici/Desktop") #PC example
+setwd("/Users/aliciahadingham/Desktop") # a Mac example 
+setwd("C:/Users/alici/Desktop") # a PC example
 
 # Print the current working directory to the console
 getwd()
@@ -55,11 +56,11 @@ getwd()
 #List files in your current working directory
 list.files()
 
-# Install a R library/package
+# Install a R library/package for the first time on your computer
 install.packages("ggplot2")
 
 # Load a library which has already been installed
-library("ggplot2")
+library("ggplot2") # library(ggplot2) also works
 
 
 

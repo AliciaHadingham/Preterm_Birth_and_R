@@ -5,29 +5,31 @@
 
 ############################################################################################
 ##                                                                                        ##
-##                                 Basic R set up                                         ##
+##                                   Setting up                                           ##
 ##                                                                                        ##
 ############################################################################################
 
-# Set the working directory
-#setwd("/Users/aliciahadingham/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #Mac
-setwd("/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content") #PC
-#getwd()
+# Set the working directory (i.e. select the file path for the folder where your data is) 
+setwd("C:/Users/alici/OneDrive - King's College London/Public_Engagement/The Brilliant Club/Github_content/data")
+getwd()
 
-# Load data2
-data2 <- read.csv("data/data2_spreadsheet.csv") 
 
-# Load data2 - This is how you can load the data if you have "ï.." symbols in front of ID in the first column
-data2 <- read.csv("data/data2_spreadsheet.csv", fileEncoding = "UTF-8-BOM") 
+# Now we need to import the data which we will analyse into R. There are two methods which we can use: 
 
-# As an alternative, you can load in data2 this way if you want
+# 1. Importing the file from your current working directory (i.e. you need to use setwd to navigate to the working directory/folder where data1_spreadsheet.csv is for this to work)
+data2 <- read.csv("data2_spreadsheet.csv") 
+
+# 2. You can import data1 directly from the internet. This is the EASIER WAY!!
 data2 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data2_spreadsheet.csv"))
 
-#Change data types
-str(data2)
-data2$ID <- factor(data2$ID)
-data2$Birth <- factor(data2$Birth)
-str(data2)
+
+# Changing the automatically chosen "character" data types to factors
+str(data1)
+data1$Birth <- factor(data1$Birth)
+data1$Diet <- factor(data1$Diet)
+data1$ID <- factor(data1$ID)
+data1$Location <- factor(data1$Location, levels = c("London", "Surrey", "Essex", "Kent"))
+str(data1)
 
 # Load ggplot2 library 
 library(ggplot2)
@@ -41,11 +43,11 @@ library(ggplot2)
 ##                                                                                        ##
 ############################################################################################
 
-#Simple line graph
+# Simple line graph
 ggplot(data=data2, aes(x=Weeks, y=fFN, group=ID)) +
   geom_line()
 
-#Line graph with individual points plotted
+# Line graph with individual points plotted
 ggplot(data=data2, aes(x=Weeks, y=fFN, group=ID)) +
   geom_line() +
   geom_point()
