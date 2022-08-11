@@ -24,12 +24,10 @@ data2 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm
 
 
 # Changing the automatically chosen "character" data types to factors
-str(data1)
-data1$Birth <- factor(data1$Birth)
-data1$Diet <- factor(data1$Diet)
-data1$ID <- factor(data1$ID)
-data1$Location <- factor(data1$Location, levels = c("London", "Surrey", "Essex", "Kent"))
-str(data1)
+str(data2)
+data2$ID <- factor(data2$ID)
+data2$Birth <- factor(data2$Birth)
+str(data2)
 
 # Load ggplot2 library 
 library(ggplot2)
