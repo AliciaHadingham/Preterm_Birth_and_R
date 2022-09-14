@@ -20,7 +20,7 @@ getwd()
 data1 <- read.csv("data1_spreadsheet.csv") 
 
 # 2. You can import data1 directly from the internet. This is the EASIER WAY!!
-data1 <- read.csv(url("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv"))
+data1 <- read.csv("https://raw.githubusercontent.com/AliciaHadingham/Preterm_Birth_and_R/main/data/data1_spreadsheet.csv")
 
 # Changing the automatically chosen "character" data types to factors
 str(data1)
