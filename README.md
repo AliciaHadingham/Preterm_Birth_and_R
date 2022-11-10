@@ -1,5 +1,5 @@
 # Coding to Save Babies' Lives: Preterm Birth and R
-The R scripts used in my tutorials will be hosted here on github for you to access. Feel free to copy and paste commands or download the scripts to help in your learning! :smiley:
+The R scripts used in my tutorials are hosted here on GitHub for you to access. Feel free to copy and paste commands or download the scripts to help in your learning! :smiley:
 <br/><br/>
 
 ## Tutorial plan
